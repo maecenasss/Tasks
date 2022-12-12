@@ -1,0 +1,5 @@
+const array = ['this', 'is', 'an', 'array'];
+if (typeof array === 'array') {
+console.log ('ARRAY!')
+}else {
+console.log ('SOMETHING WEIRD...')}
