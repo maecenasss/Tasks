@@ -1,18 +1,85 @@
-function getLength(arr){
+1) function getLength(arr){
   return arr.length
 }
-function getFirst(arr){
+2) function getFirst(arr){
     return arr[0]
 }
-function getLast(arr){
+3) function getLast(arr){
   return arr[arr.length-1]
 }
-function pushElement(arr){
+4) function pushElement(arr){
   var el=1;
   arr.push(el)
   return arr
 }
-function popElement(arr){
+5) function popElement(arr){
   arr.pop()
   return arr
 }
+
+array from freecodecamp
+// Only change code below this line
+1) const myArray = ['string', 2];
+
+2) // Only change code below this line
+const myArray = [['nested aray', 2], ['sandbox']];
+
+3) const myArray = [50, 60, 70];
+const myData = myArray[0]
+
+4) // Setup
+const myArray = [18, 64, 99];
+
+5) // Only change code below this line
+myArray[0]=45;
+console.log (myArray)
+
+6) const myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+const myData = myArray[2][1];
+
+7) Manipulate Arrays With push()
+An easy way to append data to the end of an array is via the push() function.
+
+.push() takes one or more parameters and "pushes" them onto the end of the array.
+
+Examples:
+
+const arr1 = [1, 2, 3];
+arr1.push(4);
+
+const arr2 = ["Stimpson", "J", "cat"];
+arr2.push(["happy", "joy"]);
+arr1 now has the value [1, 2, 3, 4] and arr2 has the value ["Stimpson", "J", "cat", ["happy", "joy"]].
+
+Push ["dog", 3] onto the end of the myArray variable.
+
+// Setup
+const myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+myArray.push (["dog", 3])
+
+8) Manipulate Arrays With pop()
+Another way to change the data in an array is with the .pop() function.
+
+.pop() is used to pop a value off of the end of an array. We can store this popped off value by assigning it to a variable. In other words, .pop() removes the last element from an array and returns that element.
+
+Any type of entry can be popped off of an array - numbers, strings, even nested arrays.
+
+const threeArr = [1, 4, 6];
+const oneDown = threeArr.pop();
+console.log(oneDown);
+console.log(threeArr);
+The first console.log will display the value 6, and the second will display the value [1, 4].
+
+Use the .pop() function to remove the last item from myArray and assign the popped off value to a new variable, removedFromMyArray.
+// Setup
+const myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+const removedFromMyArray = myArray.pop([1])
